@@ -1,0 +1,27 @@
+import 'dart:io';
+
+void main() {
+  var firstName = "John";
+  var lastName = "Doe";
+
+  int num1 = 10;
+  int num2 = 3;
+
+  int sum = num1 + num2;
+  int diff = num1 - num2;
+  int mul = num1 * num2;
+  double div = num1 / num2;
+
+  print("The sum is $sum");
+  print("The diff is $diff");
+  print("The mul is $mul");
+  print("The div is $div");
+
+
+}
+output
+
+The sum is 13
+The diff is 7
+The mul is 30
+The div is 3.3333333333333335
